@@ -1,0 +1,12 @@
+const CronJob = require('cron').CronJob;
+const Cron = require('./PostJobDateStatus');
+
+new CronJob(
+    '39 16 * * *',
+    function() {
+        Cron.status();
+    },
+    null,
+    true,
+    'Asia/Kolkata'
+);

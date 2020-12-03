@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+</head>
+<body class="tablescale ">
+<table
+        width="100%"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        align="center"
+        style="table-layout: fixed; box-sizing: border-box; background-color: #ffffff; max-width: 500px; padding: 0; margin: 0 auto; width: 100%;"
+>
+    <tr>
+        <td
+                style="box-sizing: border-box; text-align:left; padding: 25px 0;"
+        >
+            <img
+                    src="https://drive.google.com/uc?export=view&id=1Ps9U5vS7wb4eMF8sNiE_TYz1uwRY4T9a" alt="Startasker img"
+                    width="100"
+                    height="66"
+                    style="box-sizing: border-box; max-width: 100%; border: none;width: 8rem"
+            /></a>
+        </td>
+    </tr>
+</table>
+<table
+        width="100%"
+        border="0"
+        cellpadding="0"
+        cellspacing="0"
+        align="center"
+        style="table-layout: fixed; box-sizing: border-box; background-color: #ffffff; max-width: 500px; padding: 20px; box-shadow: 0 0 10px 1px #ddd; margin: 0 auto; width: 100%; border-top: 5px solid rgb(0, 0, 0);"
+>
+    <tr>
+        <td>Total</td>
+        <td style="text-align: right; line-height: 150%;">Date / Time</td>
+    </tr>
+    <tr style="color: red;">
+        <td><strong>RM %total</strong></td>
+        <td style="text-align: right; line-height: 150%;"><strong>%date / %time</strong></td>
+    </tr>
+    <tr>
+        <td style="padding-top: 10px;">
+            <table
+                    style="table-layout: fixed; box-sizing: border-box; background-color: rgb(250, 250, 250); max-width: 500px; padding: 0px 20px; margin: 0 auto; width: 200%;"
+            >
+                <tr>
+                    <td>
+                        <div style="float: left; width: 50%; font-size: smaller; line-height: 30%;">
+                            <h4>Booking Details</h4>
+                            <h5 style="color: grey;">Service Category:</h5>
+                            <p>%category</p>
+                            <h5 style="color: grey;">Provider:</h5>
+                            <p>%provider</p>
+                            <h5 style="color: grey;">Issued To:</h5>
+                            <p>%poster</p>
+                            <h5 style="color: grey;">Booking Code:</h5>
+                            <p>%bookingID</p>
+                            <h5 style="color: grey;">Location:</h5>
+                            <p style="line-height: 12px">%location</p>
+                        </div>
+                        <div style="float: right; width: 50%;">
+                            <div style="text-align: left; font-size: smaller; line-height: 30%;">
+                                <h4 >Receipt Summary</h4>
+                                <div style="background-color: #ffffff; padding: 10px; font-size: smaller; line-height: 30%;">
+                                    <p>Payment method:<strong style="font-size: small;">%modeofpayment</strong></p>
+                                    <hr style="border-top: 1px dashed black;">
+                                    <table style="width: 100%;">
+                                        <tr>
+                                            <td>Descripition</td>
+                                            <td style="float: right;">Amount</td>
+                                        </tr>
+                                        <th COLSPAN=4><hr style="border-top: 1px dashed black;"></th>
+                                        <tr>
+                                            <td style="line-height: 12px">%title</td>
+                                            <td style="float: right;line-height: 12px">RM %total1</td>
+                                        </tr>
+                                        <th COLSPAN=4><hr style="border-top: 1px dashed black;"></th>
+                                        <tr>
+                                            <td><strong style="font-size: small; float: right;">Total</strong></td>
+                                            <td style="float: right ;line-height: 12px">RM %total2</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-top: 10px;">
+            <table
+                    style="table-layout: fixed; box-sizing: border-box; max-width: 500px; padding: 0px 20px; margin: 0 auto; width: 200%;"
+            >
+                <tr style="text-align: center; font-size: smaller;">
+                    <td>
+                        Thanks
+                    </td>
+                </tr>
+                <tr style="text-align: center; font-size: smaller;">
+                    <td>
+                        StarTasker Team
+                    </td>
+                </tr>
+                </td>
+                </tr>
+            </table>
+
+</table>
+</div>
+</table>
+<table
+width="100%"
+border="0"
+cellpadding="0"
+cellspacing="0"
+align="center"
+style="table-layout: fixed; box-sizing: border-box; max-width: 500px; padding: 10px; margin: 0 auto; width: 100%;"
+>
+    <h5 style="text-align: center; font-size: larger; font-size: smaller;">Stay in touch</h5>
+    <div style="text-align: center; font-size: smaller;">
+        <a href="https://www.facebook./com">
+            <img
+                    width="25px"
+                    src="https://drive.google.com/uc?export=view&id=1GzF0POxha279IwnraR-7Lxh_-n7H21eq"
+                    alt="facebook img"
+                    style="margin-right: 10px;"
+            />
+        </a>
+        <a href="https://accounts.google.com/servicelogin">
+            <img
+                    width="30px"
+                    src="https://drive.google.com/uc?export=view&id=1GxIwGYMgaOmjRHD7LwkN7k-TU0QWWUH4"
+                    alt="Email img"
+                    style="margin-right: 10px;"
+            />
+        </a>
+    </div>
+</table>
+
+</body>
+</html>

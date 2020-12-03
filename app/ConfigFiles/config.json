@@ -1,0 +1,13 @@
+{
+    "connectionString": "mongodb://localhost:27017/startasker",
+    "apiURL": "http://localhost:8080/api",
+    "secretkey":"StarTasker2020",
+    "mailService":"mail.startasker.com",
+    "authMail":"enquiry@startasker.com",
+    "authMailPassword":"Startasker57",
+    "fromMail":"enquiry@startasker.com",
+    "icon":"https:/api.startasker.com/startasker-new-logo2-1.png",
+    "click_action": "https://www.staging.startasker.com/#/my-account/inbox",
+    "fcm-server-key":"AAAAAn87SCE:APA91bFoXxJL-auBEBRwVoBKoGW6_EBGuTMVrW2cdbitvddbQPp2gBB7T8forp1CBqSZ8WsZCAR-drT_zzNSrNa1pfY6zIhxf_9WYRIKSRBIyzYYyCg9VMGXaWBHjF5oSN5AV4bQP3oV"
+    
+}
